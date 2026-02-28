@@ -44,6 +44,13 @@ Consumes structured JSON and:
 ---
 
 ## 📊 Example Usage
+
+```python
+from crypto_explanation_agent import analyze_and_explain
+
+result = analyze_and_explain("BTC")
+print(result)
+```
 ---
 
 ## 🔧 Technical Notes
@@ -52,9 +59,3 @@ Consumes structured JSON and:
 - Modular multi-agent architecture
 - API-ready design (mock providers can be swapped with CoinGecko, Etherscan, etc.)
 - Fully reproducible demo pipeline
-
-```python
-from crypto_explanation_agent import analyze_and_explain
-
-result = analyze_and_explain("BTC")
-print(result)
