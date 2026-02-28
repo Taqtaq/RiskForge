@@ -51,7 +51,7 @@ Consumes structured JSON from the Risk Engine and:
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/RiskForge.git
+git clone https://github.com/Taqtaq/RiskForge.git
 cd RiskForge
 ```
 
